@@ -8,3 +8,4 @@ Samples adapted from https://github.com/Praqma/praqma-jenkins-casc
 ```
 docker-compose up --build -d
 ```
+When complete, browse to http://localhost:8081
