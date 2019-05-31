@@ -6,8 +6,10 @@ jobs:
                   scriptPath 'Jenkinsfile'
                   scm {
                     git {
-                        remote { url 'https://github.com/mkrzyzanowski/blog-001.git' }
-                        branch '*/docker-for-mac'
+                        remote { 
+                          url 'https://gitlab.com/swinburne-dxp/swinburne-core.git' 
+                        }
+                        branch '*/master'
                         extensions {}
                     }
                   }

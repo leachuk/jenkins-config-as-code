@@ -1,5 +1,6 @@
 credentials:latest
 git:latest
+gitlab:latest
 ssh-slaves:latest
 warnings:latest
 matrix-auth:latest
