@@ -1,6 +1,6 @@
 # Jenkins Config As Code
 
-Samples adapted from https://github.com/Praqma/praqma-jenkins-casc [https://github.com/Praqma/praqma-jenkins-casc]
+Samples adapted from https://github.com/Praqma/praqma-jenkins-casc
 
 ## Quick Start
 
