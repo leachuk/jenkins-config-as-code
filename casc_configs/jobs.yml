@@ -9,7 +9,7 @@ jobs:
                         remote { 
                           url 'https://gitlab.com/swinburne-dxp/swinburne-core.git' 
                         }
-                        branch '*/master'
+                        branch '*/task/jenkins-develop'
                         extensions {}
                     }
                   }
