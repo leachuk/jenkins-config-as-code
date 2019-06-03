@@ -17,7 +17,7 @@ Eventually this will be updated to manage passwords securely, for now it require
 
 ## Jenkinsfile
 
-The Jenkinsfiles usually reside in the root of the project repo which Jenkins is building. Following convention, they are usually named as `Jenkinsfile`, but it can be arbitary and is defined in the pipelines config. 
+The Jenkinsfiles usually reside in the root of the project repo which the Jenkins pipeline is building. Following convention, they are usually named as `Jenkinsfile`, but it can be arbitary and is defined in the pipelines config. 
 Documentation for Jenkinsfiles is available at https://jenkins.io/doc/book/pipeline/jenkinsfile/
 
 There are some samples available under /Jenkinsfile-samples which illustrate some useful tasks.
