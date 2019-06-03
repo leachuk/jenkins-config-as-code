@@ -25,3 +25,5 @@ There are some samples available under /Jenkinsfile-samples which illustrate som
 ### Jenkinsfile-withMaven
 The withMaven block is necessary for running maven as configured by Jenkins and the Maven Pipeline Plugin. 
 This allows Jenkins to manage the maven dependency and allows different maven versions and settings to be used across multiple pipelines. Documentation can be found at https://wiki.jenkins.io/display/JENKINS/Pipeline+Maven+Plugin
+
+Without using `withMaven(...)` you will likely recieve a `mvn not installed` error when the pipeline runs, and would need to install maven to the server manually. This is not recommended from a CasC perspective. 
